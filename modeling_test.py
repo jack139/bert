@@ -23,7 +23,8 @@ import re
 
 import modeling
 import six
-import tensorflow as tf
+#import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 
 class BertModelTest(tf.test.TestCase):
